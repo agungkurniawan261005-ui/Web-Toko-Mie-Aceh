@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Dessert - Mie Aceh Cut Aliya</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="beranda.html">
+          <img
+            src="images/logoo.png"
+            alt="Logo"
+            class="logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span
+            class="navbar-toggler-icon"
+            style="background-color: #800000; border-radius: 4px"
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="beranda.html">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Menu</a
+              >
+              <ul
+                class="dropdown-menu shadow"
+                style="background-color: #f5f5dc; border: 1px solid #800000"
+              >
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="makanan.html"
+                    >Makanan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="minuman.html"
+                    >Minuman</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="dessert.html"
+                    >Dessert</a
+                  >
+                </li>
+                <li>
+                  <hr class="dropdown-divider" style="border-color: #800000" />
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="harga-menu.html"
+                    >Harga Menu</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Tentang</a
+              >
+              <ul
+                class="dropdown-menu shadow"
+                style="background-color: #f5f5dc; border: 1px solid #800000"
+              >
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="ulasan.html"
+                    >Ulasan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="alamat.html"
+                    >Alamat</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="kontak.html"
+                    >Kontak</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="info.html"
+                    >Info</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+              <button class="btn" id="darkModeToggle" title="Ganti Mode">
+                🌙
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="dessert" class="section mt-5 pt-5">
+      <div class="container">
+        <h2 class="text-center mb-4 fw-bold">Dessert</h2>
+        <div class="row gy-4">
+          <div class="col-md-4">
+            <div
+              class="card h-100 shadow-sm card-hover"
+              data-bs-toggle="modal"
+              data-bs-target="#detailDessert1"
+              style="cursor: pointer"
+            >
+              <img
+                src="images/timphan.png"
+                class="card-img-top menu-image"
+                alt="Timphan"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-maroon">Timphan Srikaya</h5>
+                <p class="card-text text-muted small">
+                  Kue tradisional khas Aceh berbalut daun pisang.
+                </p>
+                
+                <small class="text-primary fst-italic">Klik untuk detail</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card h-100 shadow-sm card-hover"
+              data-bs-toggle="modal"
+              data-bs-target="#detailDessert2"
+              style="cursor: pointer"
+            >
+              <img
+                src="images/martabak.png"
+                class="card-img-top menu-image"
+                alt="Roti Canai"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-maroon">
+                  Martabak Aceh
+                </h5>
+                <p class="card-text text-muted small">
+                  Martabak telur khas Aceh yang memiliki kulit martabak didalamnya bukan diluar.
+                </p>
+                
+                <small class="text-primary fst-italic">Klik untuk detail</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card h-100 shadow-sm card-hover"
+              data-bs-toggle="modal"
+              data-bs-target="#detailDessert3"
+              style="cursor: pointer"
+            >
+              <img
+                src="images/pulutt.png"
+                class="card-img-top menu-image"
+                alt="pulut"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-maroon">Pulut</h5>
+                <p class="card-text text-muted small">
+                  Rasa ketan bakar yang khas, sangat menggambarkan dessert khas Aceh
+                </p>
+                
+                <small class="text-primary fst-italic">Klik untuk detail</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card h-100 shadow-sm card-hover"
+              data-bs-toggle="modal"
+              data-bs-target="#detailDessert4"
+              style="cursor: pointer"
+            >
+              <img
+                src="images/canai-gula.png"
+                class="card-img-top menu-image"
+                alt="canai-gula"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-maroon">Roti Canai Gula</h5>
+                <p class="card-text text-muted small">
+                  Roti pipih yang disajikan dengan gula yang rasanya menyatu ketika disantap.
+                </p>
+                
+                <small class="text-primary fst-italic">Klik untuk detail</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card h-100 shadow-sm card-hover"
+              data-bs-toggle="modal"
+              data-bs-target="#detailDessert5"
+              style="cursor: pointer"
+            >
+              <img
+                src="images/canai.png"
+                class="card-img-top menu-image"
+                alt="canai-gula"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-maroon">Roti Canai Coklat Keju</h5>
+                <p class="card-text text-muted small">
+                  Roti pipih yang disajikan dengan topping coklat dan keju yang melimpah.
+                </p>
+                
+                <small class="text-primary fst-italic">Klik untuk detail</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="modal fade"
+      id="detailDessert1"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 overflow-hidden">
+          <div class="position-relative">
+            <img
+              src="images/timphan.png"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
+            <button
+              type="button"
+              class="position-absolute top-0 end-0 m-3 btn btn-dark rounded-circle p-0"
+              data-bs-dismiss="modal"
+              style="
+                width: 35px;
+                height: 35px;
+                display: grid;
+                place-items: center;
+              "
+            >
+              <span class="text-white fs-5 fw-bold">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-4">
+            <h3 class="fw-bold text-maroon">Timphan Srikaya</h3>
+            <h5 class="fw-bold text-dark mb-3">Rp 3.000</h5>
+            <p class="text-muted">
+              Kue basah kebanggaan masyarakat Aceh. Terbuat dari tepung ketan
+              yang kenyal, diisi dengan selai srikaya manis gurih di dalamnya,
+              lalu dikukus dalam balutan daun pisang muda yang wangi.
+            </p>
+          </div>
+          <div class="modal-footer border-0 justify-content-center pb-4">
+            <button
+              type="button"
+              class="btn btn-outline-secondary px-4"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="detailDessert2"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 overflow-hidden">
+          <div class="position-relative">
+            <img
+              src="images/martabak.png"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
+            <button
+              type="button"
+              class="position-absolute top-0 end-0 m-3 btn btn-dark rounded-circle p-0"
+              data-bs-dismiss="modal"
+              style="
+                width: 35px;
+                height: 35px;
+                display: grid;
+                place-items: center;
+              "
+            >
+              <span class="text-white fs-5 fw-bold">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-4">
+            <h3 class="fw-bold text-maroon">Martabak Aceh</h3>
+            <h5 class="fw-bold text-dark mb-3">Rp 15.000</h5>
+            <p class="text-muted">
+              Martabak telur khas Aceh memiliki ciri khas pada kulit martabak yang dimasak berada di bagian dalam telur, bukan sebagai pembungkus. Keunikan
+               ini menghadirkan tekstur kenyal dan rasa gurih yang kuat dalam setiap potongannya.
+            </p>
+          </div>
+          <div class="modal-footer border-0 justify-content-center pb-4">
+            <button
+              type="button"
+              class="btn btn-outline-secondary px-4"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="detailDessert3"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 overflow-hidden">
+          <div class="position-relative">
+            <img
+              src="images/pulutt.png"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
+            <button
+              type="button"
+              class="position-absolute top-0 end-0 m-3 btn btn-dark rounded-circle p-0"
+              data-bs-dismiss="modal"
+              style="
+                width: 35px;
+                height: 35px;
+                display: grid;
+                place-items: center;
+              "
+            >
+              <span class="text-white fs-5 fw-bold">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-4">
+            <h3 class="fw-bold text-maroon">Pulut</h3>
+            <h5 class="fw-bold text-dark mb-3">Rp 3.000</h5>
+            <p class="text-muted">
+              Penutup yang sempurna! Rasa ketan bakar yang terbuat dari beras ketan yang dimasak hingga pulen lalu dibakar hingga harum. Aroma asap berpadu dengan
+               rasa gurih ketan menciptakan cita rasa khas Aceh yang hangat dan tradisional.
+            </p>
+          </div>
+          <div class="modal-footer border-0 justify-content-center pb-4">
+            <button
+              type="button"
+              class="btn btn-outline-secondary px-4"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="detailDessert4"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 overflow-hidden">
+          <div class="position-relative">
+            <img
+              src="images/canai-gula.png"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
+            <button
+              type="button"
+              class="position-absolute top-0 end-0 m-3 btn btn-dark rounded-circle p-0"
+              data-bs-dismiss="modal"
+              style="
+                width: 35px;
+                height: 35px;
+                display: grid;
+                place-items: center;
+              "
+            >
+              <span class="text-white fs-5 fw-bold">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-4">
+            <h3 class="fw-bold text-maroon">Roti Canai Gula</h3>
+            <h5 class="fw-bold text-dark mb-3">Rp 12.000</h5>
+            <p class="text-muted">
+             Roti canai dengan tekstur roti yang lembut di dalam dan renyah di luar dan tambahan lelehan gula memberikan rasa manis hangat yang berpadu sempurna
+               dengan aroma roti yang baru dimasak, menjadikannya camilan klasik yang nikmat dan mengenyangkan.
+            </p>
+          </div>
+          <div class="modal-footer border-0 justify-content-center pb-4">
+            <button
+              type="button"
+              class="btn btn-outline-secondary px-4"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="detailDessert5"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 overflow-hidden">
+          <div class="position-relative">
+            <img
+              src="images/canai.png"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
+            <button
+              type="button"
+              class="position-absolute top-0 end-0 m-3 btn btn-dark rounded-circle p-0"
+              data-bs-dismiss="modal"
+              style="
+                width: 35px;
+                height: 35px;
+                display: grid;
+                place-items: center;
+              "
+            >
+              <span class="text-white fs-5 fw-bold">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-4">
+            <h3 class="fw-bold text-maroon">Roti Canai Coklat Keju</h3>
+            <h5 class="fw-bold text-dark mb-3">Rp 25.000</h5>
+            <p class="text-muted">
+             Roti canai cokelat keju menghadirkan perpaduan tekstur renyah dan lembut, dengan lelehan cokelat manis dan keju gurih di setiap lipatan. Rasanya seimbang, kaya, dan memberi sensasi hangat yang memanjakan.
+            </p>
+          </div>
+          <div class="modal-footer border-0 justify-content-center pb-4">
+            <button
+              type="button"
+              class="btn btn-outline-secondary px-4"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mb-5">
+      <a
+        href="makanan.html"
+        class="btn btn-maroon px-4 py-2 rounded-pill btn-hover-scale m-2"
+      >
+        🥘 Aneka Makanan
+      </a>
+
+      <a
+        href="minuman.html"
+        class="btn btn-maroon px-4 py-2 rounded-pill btn-hover-scale m-2"
+      >
+        🥤 Aneka Minuman
+      </a>
+
+      <a
+        href="harga-menu.html"
+        class="btn btn-maroon px-4 py-2 rounded-pill btn-hover-scale m-2"
+      >
+        📜 Lihat Daftar Harga
+      </a>
+    </div>
+
+    <footer class="mt-auto text-center text-white">
+      <div class="container">
+        <p>&copy; 2025 Mie Aceh Cut Aliya.</p>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

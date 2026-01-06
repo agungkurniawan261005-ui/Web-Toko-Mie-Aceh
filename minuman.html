@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Minuman - Mie Aceh Cut Aliya</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="beranda.html">
+          <img
+            src="images/logoo.png"
+            alt="Logo"
+            class="logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span
+            class="navbar-toggler-icon"
+            style="background-color: #800000; border-radius: 4px"
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link" href="beranda.html">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Menu</a
+              >
+              <ul
+                class="dropdown-menu shadow"
+                style="background-color: #f5f5dc; border: 1px solid #800000"
+              >
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="makanan.html"
+                    >Makanan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="minuman.html"
+                    >Minuman</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="dessert.html"
+                    >Dessert</a
+                  >
+                </li>
+                <li>
+                  <hr class="dropdown-divider" style="border-color: #800000" />
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="harga-menu.html"
+                    >Harga Menu</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Tentang</a
+              >
+              <ul
+                class="dropdown-menu shadow"
+                style="background-color: #f5f5dc; border: 1px solid #800000"
+              >
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="ulasan.html"
+                    >Ulasan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="alamat.html"
+                    >Alamat</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="kontak.html"
+                    >Kontak</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="info.html"
+                    >Info</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+              <button class="btn" id="darkModeToggle" title="Ganti Mode">
+                🌙
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="minuman" class="section mt-5 pt-5">
+      <div class="container">
+        <h2 class="text-center mb-4 fw-bold">Minuman Segar</h2>
+        <div class="row gy-4">
+          <div class="col-md-4">
+            <div
+              class="card card-hover h-100 shadow-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#detailMinuman1"
+              style="cursor: pointer"
+            >
+              <img
+                src="images/teh-tarik.png"
+                class="card-img-top menu-image"
+                alt="Teh Tarik Aceh"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-maroon">Teh Tarik Aceh</h5>
+                <p class="card-text text-muted small">
+                  Teh saring khas Aceh dengan susu kental manis yang ditarik
+                  hingga berbusa.
+                </p>
+                
+                <small class="text-primary fst-italic">Klik untuk detail</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card card-hover h-100 shadow-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#detailMinuman5"
+              style="cursor: pointer"
+            >
+              <img
+                src="images/es-teh.png"
+                class="card-img-top menu-image"
+                alt="Es Teh"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-maroon">Es Teh</h5>
+                <p class="card-text text-muted small">
+                  Minuman yang paling pas dan menyegarkan setelah makan mie Aceh.
+                </p>
+                
+                <small class="text-primary fst-italic">Klik untuk detail</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div
+              class="card card-hover h-100 shadow-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#detailMinuman3"
+              style="cursor: pointer"
+            >
+              <img
+                src="images/kopi-sanger.png"
+                class="card-img-top menu-image"
+                alt="kopi sanger"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-maroon">Kopi Sanger</h5>
+                <p class="card-text text-muted small">
+                 Perpaduan kopi hitam pekat dengan susu kental manis yang dikocok hingga
+                  menyatu, menghadirkan rasa pahit dan manis yang seimbang dengan aroma kopi yang kuat dan khas.
+                </p>
+                
+                <small class="text-primary fst-italic">Klik untuk detail</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card card-hover h-100 shadow-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#detailMinuman4"
+              style="cursor: pointer"
+            >
+              <img
+                src="images/es-jeruk.png"
+                class="card-img-top menu-image"
+                alt="Es Jeruk"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-maroon">Es Jeruk Murni</h5>
+                <p class="card-text text-muted small">
+                  Perasan jeruk asli pilihan. Manis, asam, dan menyegarkan tanpa
+                  pemanis buatan.
+                </p>
+                
+                <small class="text-primary fst-italic">Klik untuk detail</small>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div
+              class="card card-hover h-100 shadow-sm"
+              data-bs-toggle="modal"
+              data-bs-target="#detailMinuman2"
+              style="cursor: pointer"
+            >
+              <img
+                src="images/es-timun.png"
+                class="card-img-top menu-image"
+                alt="Es Timun"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title fw-bold text-maroon">Es Timun Serut</h5>
+                <p class="card-text text-muted small">
+                  Minuman penyegar tenggorokan dari serutan timun segar dan
+                  sirup melon/jeruk nipis.
+                </p>
+                
+                <small class="text-primary fst-italic">Klik untuk detail</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div
+      class="modal fade"
+      id="detailMinuman1"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 overflow-hidden">
+          <div class="position-relative">
+            <img
+              src="images/teh-tarik.png"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
+            <button
+              type="button"
+              class="position-absolute top-0 end-0 m-3 btn btn-dark rounded-circle p-0"
+              data-bs-dismiss="modal"
+              style="
+                width: 35px;
+                height: 35px;
+                display: grid;
+                place-items: center;
+              "
+            >
+              <span class="text-white fs-5 fw-bold">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-4">
+            <h3 class="fw-bold text-maroon">Teh Tarik Aceh</h3>
+            <h5 class="fw-bold text-dark mb-3">Rp 12.000</h5>
+            <p class="text-muted">
+              Minuman legendaris Aceh. Campuran teh hitam pekat dan susu kental
+              manis yang 'ditarik' berulang kali antar gelas. Proses ini
+              menghasilkan busa tebal di atasnya dan mendinginkan suhu
+              teh agar pas diminum.
+            </p>
+            <div class="alert alert-light border">
+              <strong>Opsi:</strong> Panas (Hot) atau Dingin (Ice)
+            </div>
+          </div>
+          <div class="modal-footer border-0 justify-content-center pb-4">
+            <button
+              type="button"
+              class="btn btn-outline-secondary px-4"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="detailMinuman2"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 overflow-hidden">
+          <div class="position-relative">
+            <img
+              src="images/es-timun.png"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
+            <button
+              type="button"
+              class="position-absolute top-0 end-0 m-3 btn btn-dark rounded-circle p-0"
+              data-bs-dismiss="modal"
+              style="
+                width: 35px;
+                height: 35px;
+                display: grid;
+                place-items: center;
+              "
+            >
+              <span class="text-white fs-5 fw-bold">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-4">
+            <h3 class="fw-bold text-maroon">Es Timun Serut</h3>
+            <h5 class="fw-bold text-dark mb-3">Rp 10.000</h5>
+            <p class="text-muted">
+              Penawar rasa pedas terbaik! Timun segar yang diserut kasar
+              dicampur dengan sirup manis dan perasan jeruk nipis. Sensasi
+              dingin dan segarnya langsung menetralkan lidah setelah makan Mie
+              Aceh pedas.
+            </p>
+          </div>
+          <div class="modal-footer border-0 justify-content-center pb-4">
+            <button
+              type="button"
+              class="btn btn-outline-secondary px-4"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="detailMinuman3"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 overflow-hidden">
+          <div class="position-relative">
+            <img
+              src="images/kopi-sanger.png"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
+            <button
+              type="button"
+              class="position-absolute top-0 end-0 m-3 btn btn-dark rounded-circle p-0"
+              data-bs-dismiss="modal"
+              style="
+                width: 35px;
+                height: 35px;
+                display: grid;
+                place-items: center;
+              "
+            >
+              <span class="text-white fs-5 fw-bold">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-4">
+            <h3 class="fw-bold text-maroon">Kopi Sanger</h3>
+            <h5 class="fw-bold text-dark mb-3">Rp 15.000</h5>
+            <p class="text-muted">
+              Racikan kopi hitam Aceh yang diseduh kuat lalu dipadukan dengan susu kental manis, dikocok hingga menghasilkan tekstur lembut dan berbusa tipis. Perpaduan pahit kopi dan 
+              manis susu menciptakan rasa seimbang, hangat, dan menjadi ciri khas budaya ngopi masyarakat Aceh.
+            </p>
+          </div>
+          <div class="modal-footer border-0 justify-content-center pb-4">
+            <button
+              type="button"
+              class="btn btn-outline-secondary px-4"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+        <div
+      class="modal fade"
+      id="detailMinuman4"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 overflow-hidden">
+          <div class="position-relative">
+            <img
+              src="images/es-jeruk.png"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
+            <button
+              type="button"
+              class="position-absolute top-0 end-0 m-3 btn btn-dark rounded-circle p-0"
+              data-bs-dismiss="modal"
+              style="
+                width: 35px;
+                height: 35px;
+                display: grid;
+                place-items: center;
+              "
+            >
+              <span class="text-white fs-5 fw-bold">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-4">
+            <h3 class="fw-bold text-maroon">Es Jeruk Murni</h3>
+            <h5 class="fw-bold text-dark mb-3">Rp 10.000</h5>
+            <p class="text-muted">
+              Kami menggunakan jeruk peras Pontianak atau Medan yang terkenal
+              manis. Kaya akan Vitamin C, cocok untuk menjaga daya tahan tubuh
+              dan menyegarkan dahaga.
+            </p>
+          </div>
+          <div class="modal-footer border-0 justify-content-center pb-4">
+            <button
+              type="button"
+              class="btn btn-outline-secondary px-4"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade"
+      id="detailMinuman5"
+      tabindex="-1"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content rounded-4 border-0 overflow-hidden">
+          <div class="position-relative">
+            <img
+              src="images/es-teh.png"
+              class="w-100"
+              style="height: 250px; object-fit: cover"
+            />
+            <button
+              type="button"
+              class="position-absolute top-0 end-0 m-3 btn btn-dark rounded-circle p-0"
+              data-bs-dismiss="modal"
+              style="
+                width: 35px;
+                height: 35px;
+                display: grid;
+                place-items: center;
+              "
+            >
+              <span class="text-white fs-5 fw-bold">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body p-4">
+            <h3 class="fw-bold text-maroon">Es Teh</h3>
+            <h5 class="fw-bold text-dark mb-3">Rp 5.000</h5>
+            <p class="text-muted">
+              Es teh adalah minuman sederhana yang menyegarkan, dengan rasa teh yang ringan berpadu dingin
+               es, cocok dinikmati kapan saja untuk melepas dahaga.
+            </p>
+            <div class="alert alert-light border">
+              <strong>Opsi:</strong> Panas (Hot) atau Dingin (Ice)<br>
+              <strong>Opsi:</strong> Manis atau Tawar
+            </div>
+          </div>
+          <div class="modal-footer border-0 justify-content-center pb-4">
+            <button
+              type="button"
+              class="btn btn-outline-secondary px-4"
+              data-bs-dismiss="modal"
+            >
+              Tutup
+            </button>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+
+    <div class="text-center mb-5">
+      <a
+        href="makanan.html"
+        class="btn btn-maroon px-4 py-2 rounded-pill btn-hover-scale m-2"
+      >
+        🥘 Aneka Makanan
+      </a>
+
+      <a
+        href="dessert.html"
+        class="btn btn-maroon px-4 py-2 rounded-pill btn-hover-scale m-2"
+      >
+        🍰 Dessert & Kue
+      </a>
+
+      <a
+        href="harga-menu.html"
+        class="btn btn-maroon px-4 py-2 rounded-pill btn-hover-scale m-2"
+      >
+        📜 Lihat Daftar Harga
+      </a>
+    </div>
+
+    <footer class="mt-auto text-center text-white">
+      <div class="container">
+        <p>&copy; 2025 Mie Aceh Cut Aliya.</p>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

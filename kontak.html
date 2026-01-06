@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand" href="beranda.html">
+          <img
+            src="images/logoo.png"
+            alt="Logo"
+            class="logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span
+            class="navbar-toggler-icon"
+            style="background-color: #800000; border-radius: 4px"
+          ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="beranda.html">Beranda</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Menu</a
+              >
+              <ul
+                class="dropdown-menu shadow"
+                style="background-color: #f5f5dc; border: 1px solid #800000"
+              >
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="makanan.html"
+                    >Makanan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="minuman.html"
+                    >Minuman</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="dessert.html"
+                    >Dessert</a
+                  >
+                </li>
+                <li>
+                  <hr class="dropdown-divider" style="border-color: #800000" />
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="harga-menu.html"
+                    >Harga Menu</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                >Tentang</a
+              >
+              <ul
+                class="dropdown-menu shadow"
+                style="background-color: #f5f5dc; border: 1px solid #800000"
+              >
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="ulasan.html"
+                    >Ulasan</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="alamat.html"
+                    >Alamat</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="kontak.html"
+                    >Kontak</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item fw-bold"
+                    style="color: #800000"
+                    href="info.html"
+                    >Info</a
+                  >
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+              <button class="btn" id="darkModeToggle" title="Ganti Mode">
+                🌙
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="kontak" class="section mt-5 pt-5">
+      <div class="container">
+        <h2 class="text-center mb-5 fw-bold">Hubungi Kami</h2>
+        
+        <div class="row g-5">
+          
+          <div class="col-md-6">
+            <div class="p-4 rounded-4 shadow-sm contact-box">
+              <h4 class="fw-bold mb-4" style="color: #800000;">Info Lokasi</h4>
+              
+              <div class="mb-4">
+                <h5 class="fw-bold">📍 Alamat</h5>
+                <p class="text-muted contact-text">Jl. Wibawa Mukti II Jatiasih, Kota Bekasi</p>
+              </div>
+              
+              <div class="mb-4">
+                <h5 class="fw-bold">📞 Telepon</h5>
+                <p class="text-muted contact-text">+62 88219624215</p>
+              </div>
+              
+              <div class="mb-4">
+                <h5 class="fw-bold">📧 Email</h5>
+                <p class="text-muted contact-text">mieacehcutaliya@gmailcom</p>
+              </div>
+
+              <div class="mb-2">
+                <h5 class="fw-bold">📸 Instagram</h5>
+                <a href="https://www.instagram.com/mieacehcutaliya_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="text-decoration-none" style="color: #800000; font-weight: bold; font-size: 1.1rem;">
+                   @mieacehcutaliya_
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="p-4 rounded-4 shadow-sm contact-box">
+              <h4 class="fw-bold mb-4" style="color: #800000;">Kirim Pesan (WhatsApp)</h4>
+              
+              <form id="contactForm">
+                <div class="mb-3">
+                  <label for="name" class="form-label fw-bold">Nama</label>
+                  <input type="text" class="form-control" id="name" placeholder="Nama Anda" />
+                  <small class="text-danger error-msg" id="errorName"></small>
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label fw-bold">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="email@contoh.com" />
+                  <small class="text-danger error-msg" id="errorEmail"></small>
+                </div>
+
+                <div class="mb-3">
+                  <label for="message" class="form-label fw-bold">Pesan</label>
+                  <textarea class="form-control" id="message" rows="4" maxlength="100" placeholder="Tulis pesan Anda..."></textarea>
+                  <div id="charCount" class="text-end small text-muted mt-1">0 / 100 Karakter</div>
+                  <small class="text-danger error-msg" id="errorMsg"></small>
+                </div>
+
+                <button type="submit" class="btn w-100 fw-bold py-2 text-white" style="background-color: #800000;">
+                  🚀 Kirim ke WhatsApp
+                </button>
+              </form>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-auto text-center text-white">
+      <div class="containeor">
+        <p>&copy; 2025 Mie Aceh Cut Aliya.</p>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
