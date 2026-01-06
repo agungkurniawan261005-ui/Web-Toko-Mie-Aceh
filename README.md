@@ -36,6 +36,6 @@ Selain itu, JavaScript digunakan untuk menambahkan fitur interaktif seperti dark
 # Screenshot tampilan
 ![Halaman Beranda](images/Beranda.PNG)
 
-![Halaman Menu](images/preview-beranda.png)
+![Halaman Menu](images/Menu.PNG)
 
 ![Halaman Tentang](images/Tentang_alamat.PNG)
