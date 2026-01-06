@@ -34,4 +34,8 @@ Teknologi yang digunakan pada Website Mie Aceh Cut Aliya yaitu menggunakan beber
 Selain itu, JavaScript digunakan untuk menambahkan fitur interaktif seperti dark mode, navigasi menu, dan halaman Question and Answer (Q&A) sehingga website lebih nyaman digunakan. Website ini juga memanfaatkan Google Fonts untuk memperindah tampilan teks serta menyediakan integrasi GoFood untuk memudahkan pelanggan dalam melakukan pemesanan secara online. Dengan kombinasi teknologi tersebut, website tampil konsisten, mudah dipahami, dan ramah bagi pengguna.
 
 # Screenshot tampilan
-![Halaman Utama](images/Beranda.PNG)
+![Halaman Beranda](images/Beranda.PNG)
+
+![Halaman Menu](images/preview-beranda.png)
+
+![Halaman Tentang](images/Tentang_alamat.PNG)
