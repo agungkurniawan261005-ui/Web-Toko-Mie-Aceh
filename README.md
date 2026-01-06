@@ -32,4 +32,4 @@ Selain itu, JavaScript digunakan untuk menambahkan fitur interaktif seperti dark
 - Bootstrap
 
 # Screenshot tampilan
-![Halaman Utama](images/preview-beranda.png)
+![Halaman Utama](images/Beranda.PNG)
